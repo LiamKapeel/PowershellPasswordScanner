@@ -1,0 +1,5 @@
+# PowershellPasswordScanner
+🔎🔑 This script is a powerful tool for keeping track of sensitive information on your computer. It searches through text files in a specified directory (indicated by the variable $searchPath) and filters them by certain keywords (indicated by the variable $searchTerm) and writes the file path and the line that contains the keyword to an output CSV file (indicated by the variable $outputFile).
+🚫 The script also excludes lines that contain certain phrases (indicated by the variables $excludePhrase1 and $excludePhrase2) from being written to the output file. This way you can ensure that sensitive information is not accidentally exposed.
+🔜 If the output file already exists, it will only search for files that have a higher file name than the last file processed and append the new data to the existing data in the output file, which saves you time and effort.
+💻 This script is perfect for organizations or individuals who need to keep track of sensitive information on their computer or network. With this script, you can easily identify and secure any sensitive information that may have been accidentally exposed. 🔒
